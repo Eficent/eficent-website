@@ -38,7 +38,7 @@
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
                         <a href="/become-demand-driven-enterprise">
-                            <img class="img-responsive rec-img" src="eficent_website/static/src/img/ddae2.png" alt="demand driven adaptive enterprise"/>
+                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/ddae2.png" alt="demand driven adaptive enterprise"/>
                         </a>
                     </div>
                     <div class="col-md-5">
@@ -58,7 +58,7 @@
                 <div class="row showcase-left">
                     <div class="col-md-7">
                         <a href="/odoo-digital-transformation">
-                            <img class="img-responsive rec-img" src="eficent_website/static/src/img/eficent_website_odoo.png" alt="Odoo implementation services"/>
+                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/eficent_website_odoo.png" alt="Odoo implementation services"/>
                         </a>
                     </div>
                     <div class="col-md-5">
@@ -76,7 +76,7 @@
                 <div class="row showcase-left">
                     <div class="col-md-7">
                         <a href="/iot-vision">
-                            <img class="img-responsive rec-img" src="eficent_website/static/src/img/iot_integrations_with_odoo_700_300.png" alt="eficent.io"/>
+                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/iot_integrations_with_odoo_700_300.png" alt="eficent.io"/>
                         </a>
                     </div>
                     <div class="col-md-5">
