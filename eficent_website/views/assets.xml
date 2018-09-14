@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--HEADER CSS and JS import-->
+    <template id="assets_frontend" name="Custom styles" inherit_id="web.assets_frontend">
+        <xpath expr="." position="inside">
+            <link rel='stylesheet'
+                  href='/eficent_website/static/src/css/main.css'/>
+            <script type="text/javascript"
+                    src="/eficent_website/static/vendor/scrollreveal/js/scrollreveal.min.js"></script>
+            <script type="text/javascript"
+                    src="/eficent_website/static/src/js/scrollreveal-custom.js"></script>
+        </xpath>
+    </template>
+
+</odoo>

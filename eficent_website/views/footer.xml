@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template inherit_id="website.footer_custom" id="eficent_website.footer" name="Eficent Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="container hidden-print" t-if="not no_footer">
+                <span class="e_footer_logo center-block"></span>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-3">
+                        <h4>Demand Driven</h4>
+                        <ul class="list-unstyled" id="ddmrp">
+                            <li><a href="/become-demand-driven-enterprise">Become Demand Driven Enterprise</a></li>
+                            <li><a href="/eficent-io-ddmrp">Implement the Demand Driven Operating Model</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <h4>Odoo Consulting</h4>
+                        <ul class="list-unstyled" id="odoo">
+                            <li><a href="/odoo-digital-transformation">Digital Transformation with Odoo</a></li>
+                        </ul>
+                        <h4>Internet of Things</h4>
+                        <ul class="list-unstyled" id="iot">
+                            <li><a href="/iot-vision">Vision</a></li>
+                            <li><a href="/rfid-attendance-system">RFID Attendance System</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                         <h4>Events</h4>
+                        <ul class="list-unstyled" id="events">
+                            <li><a href="/ddmrp-planner-workshop">Demand Driven Planner Workshop</a></li>
+                            <li><a href="/ddmrp-odoo-workshop">Odoo DDMRP Workshop</a></li>
+                            <li><a href="/event">Scheduled Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-lg-3">
+                        <h4>Summary</h4>
+                        <ul class="list-unstyled" id="summary">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/shop">Shop</a></li>
+                            <li><a href="/mrp_boms">Bill Of Materials</a></li>
+                        </ul>
+                         <h4>About us</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="/aboutus">About us</a></li>
+                            <li><a href="/contactus">Contact us</a></li>
+                            <li><a href="/careers">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-center">
+                            <a t-att-href="website.social_twitter"><i class="fa fa-2x fa-twitter"/></a>
+                            <a t-att-href="website.social_linkedin"><i class="fa fa-2x fa-linkedin"/></a>
+                            <a t-att-href="website.social_github"><i class="fa fa-2x fa-github"/></a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

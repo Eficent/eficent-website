@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="eficent_website.page-service-highlights" priority="29" name="Services">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_service_highlights'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.init_header_service_hightlights"/>
+                <t t-call="eficent_website.content_service_hightlights"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_service_highlights" model="website.page">
+        <field name="url">/services</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-service-highlights"/>
+    </record>
+
+    <template id="eficent_website.init_header_service_hightlights" name="Services - Header">
+        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/3d_printing.jpg');"
+            data-scroll-background-ratio="1.6">
+            <div class="oe_structure"/><div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
+                        <font class="text-gray-darker" style="font-size: 24px;">
+                            <div class="title text-center">
+                                <h3 class="">A more connected, complex and continuously changing world requires more than just enhancing traditional methods and tools</h3>
+                            </div>
+                            <p>We are catalysts of the required transformational changes that your business requires to become an Enterprise that dynamically <b>senses</b> and <b>adapts</b> to the environment, with focus on <b>Flow</b>.</p>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="eficent_website.content_service_hightlights" name="Services - Content">
+        <section class="a_paralax_section" id="services">
+            <div class="oe_structure"/>
+            <div class="container">
+                <div class="row showcase-left">
+                    <div class="col-md-7 e_first_section_display">
+                        <a href="/become-demand-driven-enterprise">
+                            <img class="img-responsive rec-img" src="eficent_website/static/src/img/ddae2.png" alt="demand driven adaptive enterprise"/>
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Become <b>Now</b> a <b>Demand Driven Enterprise</b></h3>
+                        <p>Demand Driven Adaptive Enteprises sense the changes from the market and adapt their planning and execution to improve Return on Investment.</p>
+                        <a class="btn btn-primary" href="/become-demand-driven-enterprise">
+                            More Info
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                    </div>
+                </div>
+                <hr/>
+                <div class="row showcase-left">
+                    <div class="col-md-7">
+                        <a href="/odoo-digital-transformation">
+                            <img class="img-responsive rec-img" src="eficent_website/static/src/img/eficent_website_odoo.png" alt="Odoo implementation services"/>
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>We deliver the <b>Digital Transformation</b> with Odoo</h3>
+                        <p>Odoo is the best Applications Platform for your company to embrace the Digital Transformation.</p>
+                        <p>With dozens of projects delivered worldwide and more than 100 apps published, our team is the right companion to help your business become Digital.</p>
+
+                        <a class="btn btn-primary" href="/odoo-digital-transformation">
+                            More Info
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+        </section>
+    </template>
+
+</odoo>

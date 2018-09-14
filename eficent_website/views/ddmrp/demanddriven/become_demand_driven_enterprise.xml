@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="eficent_website.page-ddmrp-become-demand-driven-enterprise" name="Become Now a Demand Driven Enterprise">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_ddmrp_become_demand_driven_enterprise'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.init_header_ddmrp_become_demand_driven_enterprise"/>
+                <t t-call="eficent_website.content_ddmrp_become_demand_driven_enterprise"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_ddmrp_become_demand_driven_enterprise" model="website.page">
+        <field name="url">/become-demand-driven-enterprise</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-ddmrp-become-demand-driven-enterprise"/>
+    </record>
+
+    <template id="eficent_website.init_header_ddmrp_become_demand_driven_enterprise" name="Become Now a Demand Driven Enterprise - Header">
+        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/become_demand_driven_background.jpg');"
+            data-scroll-background-ratio="1.6">
+            <div class="oe_structure"/><div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
+                        <font class="text-gray-darker" style="font-size: 18px;">
+                        <p>
+                            The
+                            <b>Demand Driven Adaptative Enterprise</b>
+                            (DDAE) model is an
+                            <b>organizational structure</b>
+                            and
+                            <b>operating method</b>
+                            designed for complex and volatile circumstances that define today's supply chain environments.
+                        </p>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="eficent_website.content_ddmrp_become_demand_driven_enterprise" name="Become Now a Demand Driven Enterprise - Content">
+        <section class="section">
+            <div class="oe_structure"/>
+            <div class="container">
+                <hr/>
+                <div class="row showcase-left">
+                    <div class="col-md-7 e_first_section_display">
+                        <a href="/understand-demand-driven-operating-model">
+                            <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/ddae.png" alt="demand driven adaptive enterprise"/>
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>
+                            Understand the Demand Driven Adaptive Enterprise model
+                        </h3>
+                        <p>Our certified Demand Driven Instructors will provide you the keys to get you stated on the journey to become a Demand Driven Adaptive Enterprise.</p>
+                        <a class="btn btn-primary" target="_blank" href="https://www.demanddriveninstitute.com/demand-driven-adaptive-enterprise-m">
+                            More Info
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                        <a class="btn btn-primary" href="/ddmrp-planner-workshop">
+                            Attend to a Demand Driven Planner Workshop
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                    </div>
+                </div>
+                <hr/>
+                <div class="row showcase-left">
+                    <div class="col-md-7">
+                        <a href="/deploy-demand-driven-operating-model">
+                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/implement_ddom_700_300.png" alt="eficent.io"/>
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Implement the Demand Driven Operating Model</h3>
+                        <p>Our Odoo based distribution Eficent.io implements the Demand Driven MRP methodology, and meets the <a href="https://www.demanddriveninstitute.com/compliant-software">compliance requirements by the Demand Driven Institute</a>.</p>
+                        <a class="btn btn-primary" href="/eficent-io-ddmrp">
+                            More Info
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                        <a class="btn btn-primary" href="/contactus?name=Request a demo of Eficent.io, the DDMRP compliant solution for Odoo">
+                            Request a demo
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                        <a class="btn btn-primary" href="/ddmrp-odoo-workshop">
+                            Attend to an Odoo DDMRP Workshop
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+        </section>
+    </template>
+</odoo>

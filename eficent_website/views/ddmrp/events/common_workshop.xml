@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+<!-- Use <t t-call="eficent_website.meet_the_lecturers"/> on any template to add lecturers content -->
+    <template id="eficent_website.meet_the_lecturers" name="Meet the Lecturers">
+        <section class="s_company_team">
+            <div class="oe_structure"/>
+            <div class="container">
+                <h1 class="text-center mb32">
+                    Meet the Lecturers
+                </h1>
+                <div class="row">
+                    <div class="col-md-6 mb32">
+                        <div class="col-md-4">
+                            <br/>
+                            <img src="/eficent_website/static/src/img/media/ddmrp/events/jbeficent.jpg" class="center-block img-circle img-responsive shadow"/>
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Jordi Ballester, Eficent CEO</h4>
+                            <p class="text-muted">
+                                Jordi Ballester is currently CEO of Eficent. He is a Certified Demand Driven Planner, and co-author of the Demand Driven Institute compliant software Eficent.io.
+                            </p>
+                            <p class="text-muted">Previously, he was SAP consultant in supply chain for 10 years. His academic background is telecommunications engineer and bachelor in business management.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb32">
+                        <div class="col-md-4">
+                            <img src="/eficent_website/static/src/img/media/ddmrp/events/lreficent.jpg" class="img-responsive img-circle center-block shadow"/>
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Lois Rilo, Odoo Consultant at Eficent</h4>
+                            <p class="text-muted">
+                                Lois Rilo is currently consultant at Eficent. He is a certified Demand Driven Planner, and co-author of the Demand Driven Institute compliant software Eficent.io.
+                            </p>
+                            <p class="text-muted">
+                                Lois has recently been involved in a DDMRP implementation for a manufacturing company. His academic background is on Industrial Engineering.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

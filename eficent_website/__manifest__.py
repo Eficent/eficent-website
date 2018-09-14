@@ -1,0 +1,45 @@
+{
+    'name': "eficent_website",
+
+    'summary': """
+        Eficent Website""",
+
+    'description': """
+        This module add eficent content to Odoo website
+    """,
+    'author': "Eficent",
+    'website': "https://eficent.com",
+    'category': 'Website Page',
+    'version': '11.0.1.0.0',
+    'depends': ['theme_default', 'website',
+                'website_anchor_smooth_scroll',
+                'website_crm',
+                'website_js_below_the_fold',
+                'website_odoo_debranding',
+                'cms_mrp_bom_form',
+                'cms_product_form',
+                'website_event',
+                ],
+    'data': [
+        'views/home/homepage.xml',
+        'views/hightlights/odoo.xml',
+        'views/hightlights/products.xml',
+        'views/hightlights/services.xml',
+        'views/home/aboutus.xml',
+        'views/ddmrp/demanddriven/why_use_ddmrp.xml',
+        'views/ddmrp/demanddriven/become_demand_driven_enterprise.xml',
+        'views/ddmrp/eficentio/eficentio.xml',
+        'views/ddmrp/events/common_workshop.xml',
+        'views/ddmrp/events/ddmrp_odoo_workshop.xml',
+        'views/ddmrp/events/ddp_workshop.xml',
+        'views/iot/iot_vision.xml',
+        'views/iot/iot_ras.xml',
+        'views/iot/iot_development.xml',
+        'views/odoo/odoo_integration.xml',
+        'views/odoo/odoo_oca_development.xml',
+        'views/odoo/odoo_migration.xml',
+        'views/nav_menu_entries_2.xml',
+        'views/assets.xml',
+        'views/footer.xml',
+    ],
+}

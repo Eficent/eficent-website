@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+  <template id="eficent_website.page-ddmrp-odoo-workshop-ddmrp" name="DDMRP Odoo Workshop">
+    <t t-call="website.layout">
+      <t t-set="pageName" t-value="'page_ddmrp_odoo_workshop_ddmrp'"/>
+      <div id="wrap" class="oe_structure oe_empty">
+        <t t-call="eficent_website.content_ddmrp_odoo_workshop_ddmrp"/>
+      </div>
+    </t>
+  </template>
+
+  <record id="eficent_website.page_ddmrp_odoo_workshop_ddmrp" model="website.page">
+    <field name="url">/ddmrp-odoo-workshop</field>
+    <field name="website_indexed">False</field>
+    <field name="website_published">True</field>
+    <field name="view_id" ref="page-ddmrp-odoo-workshop-ddmrp"/>
+  </record>
+
+
+
+  <template id="eficent_website.content_ddmrp_odoo_workshop_ddmrp" name="DDMRP Odoo Workshop - Content">
+    <section>
+      <div class="oe_structure"/>
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">Odoo DDMRP Workshop</h1>
+          <div class="col-md-12 mb16 mt16">
+            <p class="text-center title">
+              <b>
+                &amp;nbsp;Thanks to this workshop, you will be able to apply all the DDMRP knowledge in your company's daily basis!
+              </b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <img class="img-responsive" src="/eficent_website/static/src/img/ddmrp_eficent_io_loves_oca_700_300_big.png"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <t t-call="eficent_website.meet_the_lecturers"/>
+    <section class="container">
+      <!-- Call to Action Section -->
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <a class="btn btn-lg btn-primary btn-block" href="/events">Register to the next training</a>
+        </div>
+      </div>
+    </section>
+    <section class="s_faq_collapse">
+      <div class="oe_structure"/>
+      <div class="container">
+        <h2 class="page-header">FAQs</h2>
+        <div class="panel-group" role="tablist" id="myCollapse1517828644352">
+          <div class="panel">
+            <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517828644352" data-target="#myCollapseTab1517828644353" aria-expanded="false">
+              <h4 class="panel-title">Do I have to bring my printed ticket to the event?</h4>
+            </div>
+            <div class="panel-collapse collapse" role="tabpanel" id="myCollapseTab1517828644353" aria-expanded="false">
+              <div class="panel-body bg-white-50">
+                <p>
+                  <span>No, we recommend to bring your ticket in pdf extension saved on your smartphone.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517828644352" data-target="#myCollapseTab1517828644354" aria-expanded="false">
+              <h4 class="panel-title">Is it okay if the name on my ticket or registration doesn't match the person who attends?</h4>
+            </div>
+            <div class="panel-collapse collapse" role="tabpanel" id="myCollapseTab1517828644354" aria-expanded="false">
+              <div class="panel-body bg-white-50">
+                <p>
+                  <span>Yes, you can substitute anyone from your company.</span>
+                  <br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517828644352" aria-expanded="false" data-target="#myCollapseTab1517829047546">
+              <h4 class="panel-title">And what about the accommodation?</h4>
+            </div>
+            <div class="panel-collapse collapse" role="tabpanel" aria-expanded="false" id="myCollapseTab1517829047546">
+              <div class="panel-body bg-white-50">
+                <p>
+                  We can recommend you the following hotels close to the event:
+                  <br/>
+                </p>
+                <div>
+                  <font class="text-gray-dark">
+                    <b>Hotel Upper Diagonal</b>
+                    &amp;nbsp;
+                  </font>
+                  <br/>
+                  <font class="text-gray-dark">Address: 7, Passeig de Manuel Girona 08034 Barcelona</font>
+                  <span/>
+                </div>
+                <div>
+                  <font class="text-gray-dark">
+                    Tel: 932 04 65 73
+                    <br/>
+                    <br/>
+                    <b>AC Victoria Suites Hotel</b>
+                    &amp;nbsp;
+                  </font>
+                  &amp;nbsp;
+                  <br/>
+                  <font class="text-gray-dark">
+                    Address: 9, Carrer de Beltrán i Rózpide, 7, 08034 Barcelona&amp;nbsp;&amp;nbsp;
+                    <br/>
+                    Tel: 932 06 99 00
+                  </font>
+                </div>
+                <div>
+                  &amp;nbsp;
+                  <div>
+                    <b>
+                      <font class="text-gray-dark">Arenas Atiram Hotel Barcelona</font>
+                    </b>
+                    <font class="text-gray-dark">
+                      <br/>
+                    </font>
+                    <font class="text-gray-dark">
+                      <font class="text-gray-dark">Address</font>
+                      : Carrer del Capità Arenas, 20, 08034 Barcelona
+                    </font>
+                    <font class="text-gray-dark">
+                      <br/>
+                    </font>
+                    <font class="text-gray-dark">Tel&amp;nbsp;932 80 03 03</font>
+                    <br/>
+                    <br/>
+                  </div>
+                  <b>
+                    <font class="text-gray-dark">Hotel Catalonia Rigoletto</font>
+                  </b>
+                  <font class="text-gray-dark">
+                    <br/>
+                  </font>
+                  <font class="text-gray-dark">
+                    <font class="text-gray-dark">Address</font>
+                    : Carrer de Sabino Arana, 22-24, 08028, Barcelona
+                  </font>
+                  <font class="text-gray-dark">
+                    <br/>
+                  </font>
+                  <font class="text-gray-dark">
+                    <font class="text-gray-dark">Tel</font>
+                    : 933 39 19 99
+                  </font>
+                  <font class="text-gray-dark">
+                    <br/>
+                  </font>
+                  <font class="text-gray-dark">
+                    <br/>
+                  </font>
+                  <b>
+                    <font class="text-gray-dark">Hotel Bonanova Park</font>
+                  </b>
+                  <font class="text-gray-dark">
+                    <br/>
+                  </font>
+                  <font class="text-gray-dark">
+                    <font class="text-gray-dark">Address</font>
+                    : Carrer del Capità Arenas, 51, 08034 Barcelona
+                  </font>
+                  <font class="text-gray-dark">
+                    <br/>
+                  </font>
+                  <font class="text-gray-dark">
+                    <font class="text-gray-dark">Tel</font>
+                    : 932 04 09 00
+                  </font>
+                </div>
+                <div>&amp;nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
+</odoo>

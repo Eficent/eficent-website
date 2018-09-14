@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    
+    <record id="about_us_page" model="website.menu">
+        <field name="name">About Us</field>
+        <field name="url">/aboutus</field>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">10</field>
+        <field name="website_id" ref="website.default_website"/>
+    </record>
+
+    <record id="website.contact_us_page" model="website.menu">
+        <field name="name">Contact us</field>
+        <field name="sequence">30</field>
+    </record>
+
+
+   <!-- Menu Demand Driven MRP -->
+    <record id="menu_ddmrp_demand_driven_mrp" model="website.menu">
+        <field name="name">Demand Driven</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">15</field>
+    </record>
+
+    <!-- Submenus Demand Driven MRP -->
+
+    <record id="submenu_ddmrp_become_demand_driven_enterprise" model="website.menu">
+        <field name="name">Become Demand Driven Enterprise</field>
+        <field name="url">/become-demand-driven-enterprise</field>
+        <field name="parent_id" ref="menu_ddmrp_demand_driven_mrp"/>
+        <field name="sequence" type="int">5</field>
+    </record>
+
+     <record id="submenu_ddmrp_why_demand_driven" model="website.menu">
+        <field name="name">Why Demand Driven?</field>
+        <field name="url">/why-use-ddmrp</field>
+        <field name="parent_id" ref="menu_ddmrp_demand_driven_mrp"/>
+        <field name="sequence" type="int">10</field>
+    </record>
+
+    <record id="submenu_ddmrp_eficentio_ddmrp" model="website.menu">
+        <field name="name">Eficent.io</field>
+        <field name="url">/eficent-io-ddmrp</field>
+        <field name="parent_id" ref="menu_ddmrp_demand_driven_mrp"/>
+        <field name="sequence" type="int">15</field>
+    </record>
+
+    <record id="submenu_ddmrp_planner_workshop" model="website.menu">
+        <field name="name">Demand Driven Planner Workshop</field>
+        <field name="url">/ddmrp-planner-workshop</field>
+        <field name="parent_id" ref="menu_ddmrp_demand_driven_mrp"/>
+        <field name="sequence" type="int">20</field>
+    </record>
+
+     <record id="submenu_ddmrp_odoo_workshop" model="website.menu">
+        <field name="name">DDMRP Odoo Workshop</field>
+        <field name="url">/ddmrp-odoo-workshop</field>
+        <field name="parent_id" ref="menu_ddmrp_demand_driven_mrp"/>
+        <field name="sequence" type="int">25</field>
+    </record>
+
+    <!-- Menu IoT -->
+    <record id="website_sale.menu_shop" model="website.menu">
+            <field name="name">IoT</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">20</field>
+    </record>
+
+    <!-- Submenus IoT -->
+    <record id="submenu_vision_iot" model="website.menu">
+        <field name="name">Vision</field>
+        <field name="url">/iot-vision</field>
+        <field name="parent_id" ref="website_sale.menu_shop"/>
+        <field name="sequence" type="int">5</field>
+    </record>
+
+    <record id="submenu_rasv2_iot" model="website.menu">
+            <field name="name">RAS</field>
+            <field name="url">/rfid-attendance-system</field>
+            <field name="parent_id" ref="website_sale.menu_shop"/>
+            <field name="sequence" type="int">10</field>
+    </record>
+
+    <record id="submenu_shop" model="website.menu">
+            <field name="name">Shop</field>
+            <field name="url">/shop</field>
+            <field name="parent_id" ref="website_sale.menu_shop"/>
+            <field name="sequence" type="int">15</field>
+    </record>
+
+    <!-- Menu Odoo -->
+   <record id="menu_odoo_eficent" model="website.menu">
+            <field name="name">Odoo</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">25</field>
+    </record>
+
+    <!-- Submenus Odoo -->
+
+     <record id="submenu_odoo_eficent_integration" model="website.menu">
+        <field name="name">Implementation / Methodology</field>
+        <field name="url">/odoo-integration</field>
+        <field name="parent_id" ref="menu_odoo_eficent"/>
+        <field name="sequence" type="int">5</field>
+    </record>
+
+    <record id="submenu_odoo_eficent_oca_development" model="website.menu">
+        <field name="name">Developments in OCA</field>
+        <field name="url">/odoo-oca-development</field>
+        <field name="parent_id" ref="menu_odoo_eficent"/>
+        <field name="sequence" type="int">10</field>
+    </record>
+
+    <record id="submenu_odoo_eficent_migrations" model="website.menu">
+        <field name="name">Migrations</field>
+        <field name="url">/odoo-migration</field>
+        <field name="parent_id" ref="menu_odoo_eficent"/>
+        <field name="sequence" type="int">15</field>
+    </record>
+
+    
+
+</odoo>

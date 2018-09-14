@@ -1,0 +1,217 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/*** NAV BAR ***/
+
+.dropdown-menu > .active > a {
+    background-color: #c6e9af;
+    &:hover, &:focus {
+      background-color: #c6e9af;
+    }
+  }
+
+/*** HEADERS ***/
+
+  .e_header {
+    padding: 20px 0 100px;
+  }
+  
+  @media (min-width: 992px) {
+    .e_header {
+      padding: 20px 0 100px;
+    }
+  }
+
+
+  .e_heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: auto;
+  }
+
+  @media (max-width: 992px) {
+    .e_heading {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .section {
+        padding: 80px 0;
+    }
+  }
+  
+  .e_first_section {
+    padding: 50px 0 0 0;
+  }
+  
+  @media (max-width: 992px) {
+    .e_first_section_display {
+      margin-top: -120px;
+    }
+  }
+  
+  /*** ELEMENTS ***/
+
+  section {
+    position: relative;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  /*** IMAGES ***/
+  
+  .logo {
+    margin: 0 auto;
+  }
+  
+  .bg-odoo {
+      background-color: #875a7b
+  }
+
+  /*** COLORS ***/
+  :root {
+    --primary: #c6e9af;
+  }
+  
+  body .text-primary {
+    color: #c6e9af;
+  }
+  
+  .btn-primary {
+      background-color: #0fa095;
+      border-color: #c6e9af;
+      &:hover, &:focus, &.focus {
+        background-color: #c6e9af;
+      }
+    }
+  
+  .bg-primary {
+    background-color: #c6e9af !important;
+  }
+  
+  .case-study .col-md-12 {
+    transform: translateY(-130px);
+    -webkit-transform: translateY(-130px);
+    padding: 2em 2em;
+    background-color: #fff;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 992px) {
+    .case-study .col-md-12 {
+        padding: 0.5em 0.5em;
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .btn {
+    &.btn-primary-color {
+      background: #96c03a;
+      &:hover {
+        background: #ffef44;
+      }
+    }
+    &.btn-primary-color-fill {
+      color: #c6e9af;
+      border-color: #c6e9af;
+      background: transparent;
+      &:hover {
+        color: white;
+        background: #c6e9af;
+      }
+    }
+  }
+  
+  .primary-color {
+    color: #c6e9af;
+  }
+  
+  .primary-color-bg {
+    background: #c6e9af;
+  }
+  
+  .btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+  
+  .call-action {
+    background-color: #c6e9af;
+  }
+
+  body a {
+    color: #0fa095;
+    font-weight: 400;
+  }
+  /*** IMAGES ***/
+  .img1 {
+    pointer-events: none;
+  }
+  
+  .img2 {
+    width: 100%;
+    height: 220px;
+  }
+  
+  .rec-img {
+    /* box-shadow: 10px 10px 5px; 
+    border: 1px solid; 
+    border-color: black; */
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+    &:hover {
+      color: #ffef44;
+    }
+  }
+
+  /*** FONTS ***/
+  @font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: OpenSans-Semibold;
+    src: url('../fonts/OpenSans-Semibold.ttf') format("truetype");
+  }
+  
+  
+  
+  #wrapwrap {
+    font-family: "OpenSans-Regular";
+  }
+
+  header { 
+    font-family: "OpenSans-Semibold";
+  }
+  
+  /*** JUMBOTRON ***/
+  
+  .jumbotron-iot {
+    /* IE8 and below */
+    background: rgb(198, 233, 175);
+    /* all other browsers */
+    background: rgba(198, 233, 175, 0.7);
+  }
+  
+  .jumbotron-events {
+    /* IE8 and below */
+    background: rgb(250, 240, 132);
+    /* all other browsers */
+    background: rgba(250, 240, 132, 0.5);
+    div[class^="col-"] {
+      display: inline-block;
+      vertical-align: middle;
+      float: none;
+    }
+  }
+  

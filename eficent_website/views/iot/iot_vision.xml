@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="eficent_website.page-iot-vision" name="IoT Devices Vision">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_iot_vision'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.init_header_iot_vision"/>
+                <t t-call="eficent_website.content_iot_vision"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_iot_vision" model="website.page">
+        <field name="url">/iot-vision</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-iot-vision"/>
+    </record>
+
+    <template id="eficent_website.init_header_iot_vision" name="Odoo Vision - Header">
+        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/iot_vision_background.jpg');"
+            data-scroll-background-ratio="1.6">
+            <div class="oe_structure"/><div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
+                        <font class="text-gray-darker" style="font-size: 18px;">
+                        <h2 class="title text-center">Sensing your environment is key to improve your business process.</h2>
+                        <p>
+                            We aim to design, produce and deliver smart IoT devices that allow a simple and seamless integration between the physical world and Odoo.
+                        </p>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="eficent_website.content_iot_vision" name="Odoo Vision - Content">
+        <section class="" id="vision">
+            <!-- Page Content -->
+            <div class="oe_structure"/>
+            <div class="container">
+                <hr/>
+                <section class="section">
+                    <div class="row showcase-left">
+                        <div class="col-md-7 e_first_section_display">
+                            <a href="/understand-demand-driven-operating-model">
+                                <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/iot_odoo_integration_700_300.png" alt="iot integration with odoo"/>
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <h3>
+                                Designed to work with Odoo
+                            </h3>
+                            <p>We design devices that <b>directly</b> exchange data with your <b>Odoo</b>, so that you don't have to worry about messy integrations that can break data integrity and produce tons of headaches.</p>
+                        </div>
+                    </div>
+                </section>
+                <hr/>
+                <section class="section">
+                    <div class="row showcase-left">
+                        <div class="col-md-7 e_first_section_display">
+                            <a href="/understand-demand-driven-operating-model">
+                                <img class="img-responsive logo" src="../eficent_website/static/src/img/ras_design.jpeg" alt="beautiful design"/>
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <h3>
+                                Beautiful design
+                            </h3>
+                            <p>Physical objects should be beautiful and well designed for the purpose they serve.</p>
+                            <p>We take care of all the design aspects so that the devices are compact, beautiful and easy to set up.</p>
+                        </div>
+                    </div>
+                </section>
+                <hr/>
+                <section class="section">
+                    <div class="row showcase-left">
+                        <div class="col-md-7 e_first_section_display">
+                            <a href="/understand-demand-driven-operating-model">
+                                <img class="img-responsive logo" src="../eficent_website/static/src/img/iot_open_source_700_300.png" alt="open source design"/>
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <h3>
+                                Open source
+                            </h3>
+                            <p>The hardware and software designs that we make are released under open source licenses.</p>
+                            <p>We believe that with an open and collaborative mindset we serve better to our customers, and our engineers are happier.</p>
+                        </div>
+                    </div>
+                </section>
+                <hr/>
+                <section class="section">
+                    <div class="row showcase-left">
+                        <div class="col-md-7 e_first_section_display">
+                            <a href="/understand-demand-driven-operating-model">
+                                <img class="img-responsive logo" src="../eficent_website/static/src/img/ras_700_300.png" alt="demand driven adaptive enterprise"/>
+                            </a>
+                        </div>
+                        <div class="col-md-5">
+                            <h3>
+                                Employee Time &amp; Attendance control system
+                            </h3>
+                            <p>Minimize work disruption by using a simple method to clock-in/out</p>
+                            <p>Obtain reports in Odoo about the employee productivity</p>
+                            <a class="btn btn-primary" href="/rfid-attendance-system">
+                                More Info
+                                <span class="glyphicon glyphicon-chevron-right"/>
+                            </a>
+                            <a class="btn btn-primary" href="/contactus?name=Request a demo the Employee Time and Attendance Access Control System">
+                                Request a demo
+                                <span class="glyphicon glyphicon-chevron-right"/>
+                            </a>
+                            <a class="btn btn-primary" href="/shop">
+                                Purchase now
+                                <span class="glyphicon glyphicon-chevron-right"/>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <hr/>
+            </div>
+        </section>
+    </template>
+
+</odoo>

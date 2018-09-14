@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="eficent_website.page-ddmrp-eficentio-ddmrp" name="Eficent.io DDMRP">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_ddmrp_eficentio_ddmrp'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.init_header_ddmrp_eficentio_ddmrp"/>
+                <t t-call="eficent_website.content_ddmrp_eficentio_ddmrp"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_ddmrp_eficentio_ddmrp" model="website.page">
+        <field name="url">/eficent-io-ddmrp</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-ddmrp-eficentio-ddmrp"/>
+    </record>
+
+    <template id="eficent_website.init_header_ddmrp_eficentio_ddmrp" name="Eficent.io DDMRP - Header">
+        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/eficent_io_background.jpg');"
+            data-scroll-background-ratio="1.6">
+            <div class="oe_structure"/><div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
+                        <font class="text-gray-darker" style="font-size: 18px;">
+                            <h3 class="">Eficent.io is a complete <b>ERP solution</b> that seamlessly integrates the <b>Demand Driven MRP</b> methodology, and is certified as <a href="https://www.demanddriveninstitute.com/compliant-software" target="_blank">DDMRP Compliant by the Demand Driven Institute</a>.</h3>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="eficent_website.content_ddmrp_eficentio_ddmrp" name="Eficent.io DDMRP - Content">
+        <div class="oe_structure"/>
+        <hr/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="title text-center">What is Demand Driven MRP?</h2>
+                    <div class="title text-center">
+                        <p>DDMRP is an easy to follow methodology to ensure the correct flow of relevant materials and information across the supply chain.</p>
+                        <p>DDMRP combines blended aspects of Material Requirements Planning (MRP), Distribution Requirements Planning (DRP) with the pull and visibility emphases found in Lean and the Theory of Constraints and the variability reduction emphasis of Six Sigma.</p>
+                        <a class="btn btn-primary" href="https://www.demanddriveninstitute.com/ddmrp" target="_blank">
+                            More info from the Demand Driven Institute
+                            <span class="glyphicon glyphicon-chevron-right"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <section class="section">
+            <div class="row showcase-left">
+                <div class="col-md-7 e_first_section_display">
+                    <a href="/understand-demand-driven-operating-model">
+                        <img class="img-responsive rec-img center-block" src="eficent_website/static/src/img/ddmrp_eficent_io_loves_oca_700_300.png" alt="iot integration with odoo"/>
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <h3>
+                        Fully integrated with Odoo, and DDI Compliant
+                    </h3>
+                    <p>Eficent.io is a distribution of Odoo that includes fully integrated DDMRP capabilities.</p>
+                    <p>The solution has passed the strict <a href="https://www.demanddriveninstitute.com/compliant-software">compliance criteria</a> defined by the Demand Driven Institute.</p>
+                    <p>As authors of this solution, our team has the best expertise in the DDMRP methodology and in Odoo to deliver a successful implementation project.</p>
+                    <a class="btn btn-primary" href="/contactus?name=Request a demo of Eficent.io">
+                        Request a demo
+                        <span class="glyphicon glyphicon-chevron-right"/>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr/>
+        <section class="section">
+            <div class="row showcase-left">
+                <div class="col-md-7 e_first_section_display">
+                    <p align="center"><iframe width="560" height="315" style="float:middle" src="https://www.youtube.com/embed/zx9oq0ors4U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="False"/></p>
+                </div>
+                <div class="col-md-5">
+                    <h3>
+                        Our talks at Odoo Experience
+                    </h3>
+                    <p>Eficent has been accepted talks at Odoo Experience in 2017 and 2018.</p>
+                    <p>Attend now to <a target="_blank" href="https://www.odoo.com/event/odoo-experience-2018-2018-10-03-2018-10-05-1206/page/oxp18-homepage"> Odoo Experience</a> and come to our scheduled talks.</p>
+                    <a class="btn btn-primary" target="_blank" href="https://www.odoo.com/event/odoo-experience-2018-2018-10-03-2018-10-05-1206/track/demand-driven-mrp-1101">
+                        DDMRP at Odoo Experience 2018
+                        <span class="glyphicon glyphicon-chevron-right"/>
+                    </a>
+                    <a class="btn btn-primary" target="_blank" href="https://www.odoo.com/event/odoo-experience-2018-2018-10-03-2018-10-05-1206/track/demand-driven-mrp-1101">
+                        Demistifying Material Requirements Planning at Odoo Experience 2018
+                        <span class="glyphicon glyphicon-chevron-right"/>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr/>
+    </template>
+
+</odoo>

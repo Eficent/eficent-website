@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="eficent_website.page-odoo-eficent-integration" name="Odoo Integration">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_odoo_eficent_integration'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.init_header_odoo_eficent_integration"/>
+                <t t-call="eficent_website.content_odoo_eficent_integration"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_odoo_eficent_integration" model="website.page">
+        <field name="url">/odoo-integration</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-odoo-eficent-integration"/>
+    </record>
+
+    <template id="eficent_website.init_header_odoo_eficent_integration" name="Odoo Integration - Header">
+         <div class="bg-odoo text-white e_header">
+            <div class="oe_structure"/>
+            <div class="container">
+            </div>
+        </div>
+
+        <section class="e_first_section">
+            <div class="case-study showcase-top">
+                <div class="oe_structure"/><div class="container e_heading">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title text-center">
+                               <h1 class="">Odoo Integration</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="eficent_website.content_odoo_eficent_integration" name="Odoo Integration - Content">
+        <section class="s_title" id="">
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div style="height:500px;"/>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

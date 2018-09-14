@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="eficent_website.page-ddmrp-planner-workshop-ddmrp" name="Demand Driven Planner Workshop">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_ddmrp_planner_workshop_ddmrp'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.content_ddmrp_planner_workshop_ddmrp"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_ddmrp_planner_workshop_ddmrp" model="website.page">
+        <field name="url">/ddmrp-planner-workshop</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-ddmrp-planner-workshop-ddmrp"/>
+    </record>
+
+    <template id="eficent_website.content_ddmrp_planner_workshop_ddmrp" name="Demand Driven Planning Workshop - Content">
+        <section class="container">
+            <h1 class="text-center">Demand Driven Planner Workshop</h1>
+        </section>
+        <section class="s_text_block">
+            <div class="oe_structure"/><div class="container">
+                <h3 class="text-center text-muted">Get ready to be trained in a revolutionary planning method designed to meet the needs of the modern day market.</h3>
+                <div class="row">
+                    <div class="col-md-12 mb16 mt16">
+                        <p>
+                            The&amp;nbsp;
+                            <b>Demand Driven Planner (DDP)™</b>
+                            &amp;nbsp;Program is designed for planning, purchasing and supply chain personnel responsible for implementing and maintaining a Demand Driven MRP (DDMRP) Operating Model.
+                        </p>
+                        <p>Most Purchasing and Materials Managers feel like they are caught between a rock and a hard spot. Shortages of critical items must be eliminated while at the same time inventory levels must be dramatically reduced and expedite related expenses minimized. In today’s economic climate this conflict is more urgent than ever.</p>
+                        <p>Unfortunately, most of the today’s available tool sets are insufficient to effectively resolve this conflict in the face of increasing demand and supply volatility and variability. Learn about the shortcomings of tools like MRP and Demand driven MRP is based on the best attributes of Six Sigma, Lean, TOC and MRP.</p>
+                        <p>This integrated but still intuitive approach will give lower inventories, better customer service, better use of capacity and lower supply chain risk.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="jumbotron-events">
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Start your DDMRP journey!</h3>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img img-responsive" src="/eficent_website/static/src/img/media/ddmrp/events/ddmrp_book.jpg"/>
+                    </div>
+                    <div class="col-lg-3 mt16 mb16">
+                        <a href="/events" class="pull-right btn btn-primary btn-lg">
+                            <span class="text-white">Event Schedule&amp;nbsp;</span>
+                            <i class="fa fa-chevron-right text-white" data-original-title="" title=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <t t-call="eficent_website.meet_the_lecturers"/>
+        <section class="s_image_text">
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Typical DDMRP Results</h3>
+                        <p>Demand Driven Material Requirements Planning is a proven method across a wide array of industries. It is quickly being adopted by a wide variety of leading companies across the world.</p>
+                        <p>Intuitive, pragmatic and transparent, it's nothing short of a revolution in&amp;nbsp;supply chain planning.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img img-responsive center-block mb16" src="/eficent_website/static/src/img/media/ddmrp/events/typical_ddmrp_results.png" alt="Odoo image and text block"/>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                         <div class="media_iframe_video" data-oe-expression="//player.vimeo.com/video/134888926?autoplay=0">
+                            <div class="css_editable_mode_display" data-original-title="" title="">&amp;nbsp;</div>
+                            <div class="media_iframe_video_size">&amp;nbsp;</div>
+                            <iframe src="//player.vimeo.com/video/134888926?autoplay=0" frameborder="0"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Leading DDMRP Adopters</h3>
+                        <p>These are some of the most important companies that have already trusted on the DDMRP methodology.</p>
+                        <img class="img img-responsive pull-left mb16" src="/eficent_website/static/src/img/media/ddmrp/events/leading_ddmrp_adopters.png" alt="Odoo text and image block" data-original-title="" title=""/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s_faq_collapse">
+            <div class="oe_structure"/><div class="container">
+                <h2 class="page-header">FAQs</h2>
+                <div class="panel-group" role="tablist" id="myCollapse1517826986935">
+                    <div class="panel">
+                        <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517826986935" aria-expanded="false" data-vivaldi-spatnav-clickable="1" data-target="#myCollapseTab1526975904520">
+                            <h4 class="panel-title">Once I finish the workshop, am I receiving a DDP certificate?</h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                            <div class="panel-body bg-white-50">
+                                <p>
+                                    <span>No, it is necessary to take an exam to get the Demand Driven Planner certificate.</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517826986935" data-target="#myCollapseTab1517826986936" aria-expanded="false" data-vivaldi-spatnav-clickable="1">
+                            <h4 class="panel-title">Is the cost of the exam included?</h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel" id="myCollapseTab1517826986936" aria-expanded="false">
+                            <div class="panel-body bg-white-50">
+                                <p>
+                                    <span>No, the cost of the exam is not included. It can be purchased separately after the class if desired.</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517826986935" aria-expanded="false" data-target="#myCollapseTab1517826993931" data-vivaldi-spatnav-clickable="1">
+                            <h4 class="panel-title">Do I have to bring my printed ticket to the event?</h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                            <div class="panel-body bg-white-50">
+                                <p>
+                                    <span>No, we recommend to bring your ticket in pdf extension saved on your smartphone.</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading bg-gray-lighter collapsed" role="tab" data-toggle="collapse" data-parent="#myCollapse1517826986935" aria-expanded="false" data-target="#myCollapseTab1517826993611" data-vivaldi-spatnav-clickable="1">
+                            <h4 class="panel-title">Is it ok if the name on my ticket or registration doesn't match the person who attends?</h4>
+                        </div>
+                        <div class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                            <div class="panel-body bg-white-50">
+                                <p>
+                                    <span>Yes, you can substitute anyone from your company.</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

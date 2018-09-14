@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="eficent_website.page-ddmrp-why-use-ddmrp" name="Why use DDMRP">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'page_ddmrp_why_use_ddmrp'"/>
+            <div id="wrap" class="oe_structure oe_empty">
+                <t t-call="eficent_website.init_header_ddmrp_why_use_ddmrp"/>
+                <t t-call="eficent_website.content_ddmrp_why_use_ddmrp"/>
+            </div>
+        </t>
+    </template>
+
+    <record id="eficent_website.page_ddmrp_why_use_ddmrp" model="website.page">
+        <field name="url">/why-use-ddmrp</field>
+        <field name="website_indexed">False</field>
+        <field name="website_published">True</field>
+        <field name="view_id" ref="page-ddmrp-why-use-ddmrp"/>
+    </record>
+
+    <template id="eficent_website.init_header_ddmrp_why_use_ddmrp" name="Why use DDMRP - Header">
+        <section class="s_title" id="">
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div style="height:500px;"/>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="eficent_website.content_ddmrp_why_use_ddmrp" name="Why use DDMRP - Content">
+        <section class="s_title" id="">
+            <div class="" id=""
+                style="background-image: url(&quot;eficent_website/static/src/img/media/ddmrp/ddmrp_history_0.svg&quot;); background-repeat: no-repeat; width:100%; height:200px; background-position: center; background-size: cover;">
+                <div class="oe_structure"/><div class="container text-center">
+                    <div class="row">
+                        <h1 style="font-size: 50px;">DDMRP</h1>
+                        <h2 style="font-size: 32px;" class="showcase-top">
+                            Demand Driven Material
+                            Requirements Planning
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="showcase" style="background-color: #80ff80;">
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="eficent_website/static/src/img/media/ddmrp/buffer.png" class="img img-responsive center-block"/>
+                    </div>
+                </div>
+                <div class="row equal">
+                    <div class="col-md-6 mt16 mb16 feature text-center">
+                        <p class="lead">Demand Driven Material Requirements Planning is an innovative methodology for <b>planning and inventory management</b> that incorporate concepts from Lean, ToC, Six Sigma and MRP.</p>
+                    </div>
+                    <div class="col-md-6 mt16 mb16 feature text-center">
+                        <p class="lead">It allows organizations to <b>align production and supply to market’s demand</b>, while enabling a better and faster decision making, both at <b>operational</b> and <b>strategic</b> levels.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="parallax s_parallax oe_img_bg" id=""
+            style="background-image: url(&quot;eficent_website/static/src/img/ddmrp_history_2.png&quot;); background-repeat: no-repeat; width:100%; height:300px;  background-position: center; background-size: cover;"/>
+        <section class="showcase" style="background-color: #ffdd55;">
+            <div class="oe_structure"/><div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="title text-center e_first_section_display">
+                            The New Normal
+                        </h1>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row equal">
+                            <div class="col-md-12 mt16 mb16 feature">
+                                <h2 class="mb16">The problem</h2>
+                                <p class="lead">In an increasingly <b>variable</b> and <b>volatile</b> environment, all the organizations in the supply chain are affected by the "bullwhip effect".</p>
+                                <p clasS="lead">Moreover they have to face unpredictable demand signals, increasing SKUs, shorter customer tolerance, longer Lead Times in a worldwide net, lots of customizations… which are only a few of the factors that describe the <b>21st century reality</b>; DDMRP arises as an answer to this complex scenario.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-md-offset-1">
+                        <div class="row equal">
+                            <div class="col-md-12 mt16 mb16 feature">
+                                <h2 class="mb16">The solution</h2>
+                                <p class="lead">To be able to survive in this environment you might need to overhaul your enterprise model and embrace the <b>Demand Driven Adaptative Enterprise</b> one.</p>
+                                <p class="lead">Once you become demand driven you will likely experience these benefits:</p>
+                                <ol class="lead">
+                                    <li>- Improve Customer Service.</li>
+                                    <li>- Reduce Lead Time.</li>
+                                    <li>- Reduce inventory and keep it in the appropriate levels.</li>
+                                    <li>- Minimize ancillary expenses (expedites, cross-ships, partial ships…).</li>
+                                    <li>- Better and easier communication throughout the organization.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="parallax s_parallax oe_img_bg e_header"
+            style="background-image: url(&quot;eficent_website/static/src/img/ddmrp_history_3.png&quot;); background-repeat: no-repeat; width:100%; height:200px;  background-position: center; background-size: cover;"/>
+        <section class="showcase" style="background-color: #ff8080;">
+            <div class="oe_structure"/><div class="container">
+                <div class="row equal">
+                    <div class="col-md-12 feature">
+                        <p class="lead">Eficent is an Affiliate of the Demand Driven Institute (DDI) which is the global authority on Demand Driven education, training, certification and compliance.</p>
+                        <p class="lead">
+                            We are certified Demand Driven Planner Endorsed Instructors by the DDI, we have developed a fully integrated with Odoo, DDMRP solution
+                            <a href="/eficent-io-ddmrp">Eficent.io</a>
+                            and we have guided successful implementations and integrations worldwide. This places us in the position to deliver a full program to transform your business into a Demand Driven Enterprise using Odoo.
+                        </p>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <h4>Understand the Demand Driven Operating Model</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <h4>Implement a Flow-based Operating Model</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="panel panel-default text-center">
+                            <div class="panel-body">
+                                <h4>Implement Flow-Based Metrics</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>

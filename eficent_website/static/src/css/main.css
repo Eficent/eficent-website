@@ -1,0 +1,269 @@
+
+/*** NAV BAR ***/
+.dropdown-menu>.active>a {
+  background-color: #c6e9af;
+}
+
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+  background-color: #c6e9af;
+}
+
+/*** HEADERS ***/
+.e_header {
+  padding: 20px 0 100px;
+}
+
+@media (min-width: 992px) {
+  .e_header {
+    padding: 20px 0 100px;
+  }
+}
+
+.e_heading {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: auto;
+}
+
+@media (max-width: 767px) {
+  .e_heading {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 80px 0;
+  }
+}
+
+
+.a_paralax_section {
+  padding: 50px 0 0 0;
+}
+
+.e_first_section {
+  padding: 50px 0 0 0;
+}
+
+@media (max-width: 992px) {
+  .e_first_section_display {
+    margin-top: -120px;
+  }
+}
+
+/*** ELEMENTS ***/
+section {
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/*** IMAGES ***/
+.logo {
+  margin: 0 auto;
+}
+
+.e_footer_logo {
+  background-image: url('/eficent_website/static/src/img/eficent_logo.png');
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 110px;
+  background-size: auto 50px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.e_footer_logo.center-block {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bg-odoo {
+  background-color: #875a7b;
+}
+
+/*** COLORS ***/
+:root {
+  --primary: #c6e9af;
+}
+
+body .text-primary {
+  color: #c6e9af;
+}
+
+.btn-primary {
+  background-color: #0fa095;
+  border-color: #c6e9af;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+  background-color: #c6e9af;
+  color: #0fa095;
+}
+
+.bg-primary {
+  background-color: #c6e9af !important;
+}
+
+.case-study .col-md-12 {
+  transform: translateY(-130px);
+  -webkit-transform: translateY(-130px);
+  padding: 2em 2em;
+  background-color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 992px) {
+  .case-study .col-md-12 {
+    padding: 0.5em 0.5em;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn.btn-primary-color {
+  background: #96c03a;
+}
+
+.btn.btn-primary-color:hover {
+  background: #ffef44;
+}
+
+.btn.btn-primary-color-fill {
+  color: #c6e9af;
+  border-color: #c6e9af;
+  background: transparent;
+}
+
+.btn.btn-primary-color-fill:hover {
+  color: white;
+  background: #c6e9af;
+}
+
+.primary-color {
+  color: #c6e9af;
+}
+
+.primary-color-bg {
+  background: #c6e9af;
+}
+
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.call-action {
+  background-color: #c6e9af;
+}
+
+body a {
+  color: #0fa095;
+  font-weight: 400;
+}
+
+/*** IMAGES ***/
+.img1 {
+  pointer-events: none;
+}
+
+.img2 {
+  width: 100%;
+  height: 220px;
+}
+
+.rec-img {
+  /* box-shadow: 10px 10px 5px; 
+  border: 1px solid; 
+  border-color: black; */
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+}
+
+.rec-img:hover {
+  color: #ffef44;
+}
+
+/*** FONTS ***/
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url("../fonts/OpenSans-Semibold.ttf") format("truetype");
+}
+
+#wrap {
+  font-family: "OpenSans-Regular";
+}
+
+body, .jumbotron {
+  font-family: "OpenSans-Semibold";
+}
+
+@media (max-width: 992px) {
+  #wrap {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  #wrap {
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    padding-bottom: 25px;
+    -webkit-box-shadow: #FFF 0 7px 35px 0;
+    -moz-box-shadow: #FFF 0 7px 35px 0;
+    box-shadow: #FFF 0 7px 35px 0;
+  }
+
+  footer {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #c6e9af;
+  }
+
+  #footer {
+    margin-top: 25px;
+  }
+}
+
+/*** JUMBOTRON ***/
+.jumbotron-iot {
+  /* IE8 and below */
+  background: #c6e9af;
+  /* all other browsers */
+  background: rgba(198, 233, 175, 0.9);
+}
+
+.jumbotron-events {
+  /* IE8 and below */
+  background: #faf084;
+  /* all other browsers */
+  background: rgba(250, 240, 132, 0.5);
+}
+
+.jumbotron-events div[class^="col-"] {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/*# sourceMappingURL=main.css.map */
