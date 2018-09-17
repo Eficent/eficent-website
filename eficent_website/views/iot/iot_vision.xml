@@ -45,9 +45,7 @@
                 <section class="section">
                     <div class="row showcase-left">
                         <div class="col-md-7 e_first_section_display">
-                            <a href="/understand-demand-driven-operating-model">
-                                <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/iot_odoo_integration_700_300.png" alt="iot integration with odoo"/>
-                            </a>
+                            <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/iot_odoo_integration_700_300.png" alt="iot integration with odoo"/>
                         </div>
                         <div class="col-md-5">
                             <h3>
@@ -61,9 +59,7 @@
                 <section class="section">
                     <div class="row showcase-left">
                         <div class="col-md-7 e_first_section_display">
-                            <a href="/understand-demand-driven-operating-model">
-                                <img class="img-responsive logo" src="../eficent_website/static/src/img/ras_design.jpeg" alt="beautiful design"/>
-                            </a>
+                            <img class="img-responsive logo" src="../eficent_website/static/src/img/ras_design.jpeg" alt="Beautiful Design"/>
                         </div>
                         <div class="col-md-5">
                             <h3>
@@ -78,9 +74,7 @@
                 <section class="section">
                     <div class="row showcase-left">
                         <div class="col-md-7 e_first_section_display">
-                            <a href="/understand-demand-driven-operating-model">
-                                <img class="img-responsive logo" src="../eficent_website/static/src/img/iot_open_source_700_300.png" alt="open source design"/>
-                            </a>
+                            <img class="img-responsive logo" src="../eficent_website/static/src/img/iot_open_source_700_300.png" alt="Open Source Design"/>
                         </div>
                         <div class="col-md-5">
                             <h3>
@@ -95,9 +89,7 @@
                 <section class="section">
                     <div class="row showcase-left">
                         <div class="col-md-7 e_first_section_display">
-                            <a href="/understand-demand-driven-operating-model">
-                                <img class="img-responsive logo" src="../eficent_website/static/src/img/ras_700_300.png" alt="demand driven adaptive enterprise"/>
-                            </a>
+                            <img class="img-responsive logo" src="../eficent_website/static/src/img/ras_700_300.png" alt="Employee Time and Attendance"/>
                         </div>
                         <div class="col-md-5">
                             <h3>

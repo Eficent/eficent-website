@@ -72,9 +72,7 @@
             <section class="section">
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
-                        <a href="/understand-demand-driven-operating-model">
-                            <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/iot_odoo_integration_700_300.png" alt="iot integration with odoo"/>
-                        </a>
+                        <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/iot_odoo_integration_700_300.png" alt="iot integration with odoo"/>
                     </div>
                     <div class="col-md-5">
                         <h3>
@@ -88,9 +86,7 @@
             <section class="section">
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
-                        <a href="/understand-demand-driven-operating-model">
-                            <img class="img-responsive logo" src="../eficent_website/static/src/img/ap_mode_700_300.png" alt="iot integration with odoo"/>
-                        </a>
+                        <img class="img-responsive logo" src="../eficent_website/static/src/img/ap_mode_700_300.png" alt="iot integration with odoo"/>
                     </div>
                     <div class="col-md-5">
                         <h3>

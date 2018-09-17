@@ -12,13 +12,13 @@
     </template>
 
     <template id="eficent_website.init_header_homepage_eficent" name="Eficent - Header">
-        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/eficent_background.png');"
+        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('../eficent_website/static/src/img/eficent_background.png');"
             data-scroll-background-ratio="1.6">
             <div class="oe_structure"/><div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
                         <img class="img-responsive logo" alt="odoo logo"
-                                src="eficent_website/static/src/img/eficent_logo.png"/>
+                                src="../eficent_website/static/src/img/eficent_logo.png"/>
                         <font class="text-gray-darker" style="font-size: 24px;">
                         <h3 class="title text-center">
                             Welcome to the Demand Driven Industry 4.0
@@ -37,9 +37,7 @@
                 <hr/>
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
-                        <a href="/become-demand-driven-enterprise">
-                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/ddae2.png" alt="demand driven adaptive enterprise"/>
-                        </a>
+                        <img class="img-responsive rec-img" src="../eficent_website/static/src/img/ddae2.png" alt="Demand Driven Adaptive Enterprise"/>
                     </div>
                     <div class="col-md-5">
                         <h3>Become <b>Now</b> a <b>Demand Driven Enterprise</b></h3>
@@ -57,9 +55,7 @@
                 <hr/>
                 <div class="row showcase-left">
                     <div class="col-md-7">
-                        <a href="/odoo-digital-transformation">
-                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/eficent_website_odoo.png" alt="Odoo implementation services"/>
-                        </a>
+                        <img class="img-responsive rec-img" src="../eficent_website/static/src/img/eficent_website_odoo.png" alt="Odoo implementation services"/>
                     </div>
                     <div class="col-md-5">
                         <h3>We deliver the <b>Digital Transformation</b> with Odoo</h3>
@@ -75,9 +71,7 @@
                 <hr/>
                 <div class="row showcase-left">
                     <div class="col-md-7">
-                        <a href="/iot-vision">
-                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/iot_integrations_with_odoo_700_300.png" alt="eficent.io"/>
-                        </a>
+                        <img class="img-responsive rec-img" src="../eficent_website/static/src/img/iot_integrations_with_odoo_700_300.png" alt="eficent.io"/>
                     </div>
                     <div class="col-md-5">
                         <h3><b>Connect</b> the physical and digital worlds with smart devices</h3>
@@ -87,7 +81,6 @@
                             More Info
                             <span class="glyphicon glyphicon-chevron-right"/>
                         </a>
-
                     </div>
                 </div>
                 <hr/>

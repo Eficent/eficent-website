@@ -48,9 +48,7 @@
                 <hr/>
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
-                        <a href="/understand-demand-driven-operating-model">
-                            <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/ddae.png" alt="demand driven adaptive enterprise"/>
-                        </a>
+                        <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/ddae.png" alt="demand driven adaptive enterprise"/>
                     </div>
                     <div class="col-md-5">
                         <h3>
@@ -70,9 +68,7 @@
                 <hr/>
                 <div class="row showcase-left">
                     <div class="col-md-7">
-                        <a href="/deploy-demand-driven-operating-model">
-                            <img class="img-responsive rec-img" src="../eficent_website/static/src/img/implement_ddom_700_300.png" alt="eficent.io"/>
-                        </a>
+                        <img class="img-responsive rec-img" src="../eficent_website/static/src/img/implement_ddom_700_300.png" alt="eficent.io"/>
                     </div>
                     <div class="col-md-5">
                         <h3>Implement the Demand Driven Operating Model</h3>

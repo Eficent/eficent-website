@@ -47,7 +47,7 @@
             <div class="oe_structure"/><div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="eficent_website/static/src/img/media/ddmrp/buffer.png" class="img img-responsive center-block"/>
+                        <img src="../eficent_website/static/src/img/media/ddmrp/buffer.png" class="img img-responsive center-block"/>
                     </div>
                 </div>
                 <div class="row equal">
