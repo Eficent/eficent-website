@@ -1,0 +1,1111 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* eficent_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-20 20:13+0000\n"
+"PO-Revision-Date: 2018-09-20 20:13+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "&amp;nbsp;"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "- Better and easier communication throughout the organization."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "- Improve Customer Service."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "- Minimize ancillary expenses (expedites, cross-ships, partial ships…)."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "- Reduce Lead Time."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "- Reduce inventory and keep it in the appropriate levels."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "369 published Apps"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<b>\n"
+"                      <font class=\"text-gray-dark\">Arenas Atiram Hotel Barcelona</font>\n"
+"                    </b>\n"
+"                    <font class=\"text-gray-dark\">\n"
+"                      <br/>\n"
+"                    </font>\n"
+"                    <font class=\"text-gray-dark\">\n"
+"                      <font class=\"text-gray-dark\">Address</font>\n"
+"                      : Carrer del Capità Arenas, 20, 08034 Barcelona\n"
+"                    </font>\n"
+"                    <font class=\"text-gray-dark\">\n"
+"                      <br/>\n"
+"                    </font>\n"
+"                    <font class=\"text-gray-dark\">Tel&amp;nbsp;932 80 03 03</font>\n"
+"                    <br/>\n"
+"                    <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<b>\n"
+"                    <font class=\"text-gray-dark\">Hotel Catalonia Rigoletto</font>\n"
+"                  </b>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <br/>\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <font class=\"text-gray-dark\">Address</font>\n"
+"                    : Carrer de Sabino Arana, 22-24, 08028, Barcelona\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <br/>\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <font class=\"text-gray-dark\">Tel</font>\n"
+"                    : 933 39 19 99\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <br/>\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <br/>\n"
+"                  </font>\n"
+"                  <b>\n"
+"                    <font class=\"text-gray-dark\">Hotel Bonanova Park</font>\n"
+"                  </b>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <br/>\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <font class=\"text-gray-dark\">Address</font>\n"
+"                    : Carrer del Capità Arenas, 51, 08034 Barcelona\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <br/>\n"
+"                  </font>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    <font class=\"text-gray-dark\">Tel</font>\n"
+"                    : 932 04 09 00\n"
+"                  </font>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<b>\n"
+"                &amp;nbsp;Thanks to this workshop, you will be able to apply all the DDMRP knowledge in your company's daily basis!\n"
+"              </b>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "<b>Connect</b> the physical and digital worlds with smart devices"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_product_hightlights
+msgid "<b>Sensing your environment is key to improve your business process</b>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_development_init_header
+msgid "<b>solutions</b>\n"
+"                            for"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<font class=\"text-gray-dark\">\n"
+"                    <b>Hotel Upper Diagonal</b>\n"
+"                    &amp;nbsp;\n"
+"                  </font>\n"
+"                  <br/>\n"
+"                  <font class=\"text-gray-dark\">Address: 7, Passeig de Manuel Girona 08034 Barcelona</font>\n"
+"                  <span/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<font class=\"text-gray-dark\">\n"
+"                    Tel: 932 04 65 73\n"
+"                    <br/>\n"
+"                    <br/>\n"
+"                    <b>AC Victoria Suites Hotel</b>\n"
+"                    &amp;nbsp;\n"
+"                  </font>\n"
+"                  &amp;nbsp;\n"
+"                  <br/>\n"
+"                  <font class=\"text-gray-dark\">\n"
+"                    Address: 9, Carrer de Beltrán i Rózpide, 7, 08034 Barcelona&amp;nbsp;&amp;nbsp;\n"
+"                    <br/>\n"
+"                    Tel: 932 06 99 00\n"
+"                  </font>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "<span class=\"text-white\">Event Schedule&amp;nbsp;</span>\n"
+"                            <i class=\"fa fa-chevron-right text-white\" data-original-title=\"\" title=\"\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "<span>No, it is necessary to take an exam to get the Demand Driven Planner certificate.</span>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "<span>No, the cost of the exam is not included. It can be purchased separately after the class if desired.</span>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<span>No, we recommend to bring your ticket in pdf extension saved on your smartphone.</span>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "<span>No, we recommend to bring your ticket in pdf extension saved on your smartphone.</span>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "<span>Yes, you can substitute anyone from your company.</span>\n"
+"                                    <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "<span>Yes, you can substitute anyone from your company.</span>\n"
+"                  <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_service_hightlights
+msgid "A more connected, complex and continuously changing world requires more than just enhancing traditional methods and tools"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "About Us"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "About us"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "All our development work in Odoo is published in:"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_init_header
+msgid "An all-in-one solution to manage both time &amp; attendance."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "And what about the accommodation?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "As authors of this solution, our team has the best expertise in the DDMRP methodology and in Odoo to deliver a successful implementation project."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "At Eficent we work incessantly to develop new products based on free software, to meet the needs of our customers, and to contribute to make a better world."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Attend now to"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+msgid "Attend to a Demand Driven Planner Workshop\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+msgid "Attend to an Odoo DDMRP Workshop\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Automating the tracking of employee clock in and out times makes it easy for your administration team to process payroll with accuracy while saving time. Whether it is an office, manufacturing plant or any workplace setup that requires employees to punch in and out, our system delivers precise logging that is passive to the employee"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "Beautiful design"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_components
+msgid "Because we love open source, we publish the Bill of Materials of this product."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Because your employees are accessing the office or plant with their badge, their in and out times are easily tracked and recorded."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "Become <b>Now</b> a <b>Demand Driven Enterprise</b>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Become Demand Driven Enterprise"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Bill Of Materials"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Careers"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Closer collaboration with customers, suppliers and key partners."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Connect to the device from your mobile using it's built in Wifi, and define the Odoo server that you want the device to talk to."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Contact us"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "DDMRP"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_ddmrp_eficentio_ddmrp
+msgid "DDMRP Compliant by the Demand Driven Institute"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "DDMRP at Odoo Experience 2018\n"
+"                        <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "DDMRP combines blended aspects of Material Requirements Planning (MRP), Distribution Requirements Planning (DRP) with the pull and visibility emphases found in Lean and the Theory of Constraints and the variability reduction emphasis of Six Sigma."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "DDMRP is an easy to follow methodology to ensure the correct flow of relevant materials and information across the supply chain."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Demand Driven"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "Demand Driven Adaptive Enteprises sense the changes from the market and adapt their planning and execution to improve Return on Investment."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Demand Driven Material\n"
+"                            Requirements Planning"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Demand Driven Material Requirements Planning is a proven method across a wide array of industries. It is quickly being adopted by a wide variety of leading companies across the world."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Demand Driven Material Requirements Planning is an innovative methodology for <b>planning and inventory management</b> that incorporate concepts from Lean, ToC, Six Sigma and MRP."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+#: model:ir.ui.view,arch_db:eficent_website.footer
+#: model:website.menu,name:eficent_website.submenu_events_ddmrp_planner_workshop
+msgid "Demand Driven Planner Workshop"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Demistifying Material Requirements Planning at Odoo Experience 2018\n"
+"                        <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Designed to work with Odoo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_odoo_eficent_oca_development
+msgid "Developments in OCA"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Digital Transformation with Odoo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Do I have to bring my printed ticket to the event?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Eficent has been accepted talks at Odoo Experience in 2017 and 2018."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Eficent is an Affiliate of the Demand Driven Institute (DDI) which is the global authority on Demand Driven education, training, certification and compliance."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Eficent.io"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_ddmrp_eficentio_ddmrp
+msgid "Eficent.io is a complete <b>ERP solution</b> that seamlessly integrates the <b>Demand Driven MRP</b> methodology, and is certified as"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Eficent.io is a distribution of Odoo that includes fully integrated DDMRP capabilities."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_init_header
+msgid "Employee Time &amp; Attendance Access Control System"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "Employee Time &amp; Attendance Control System"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "Employee Time &amp; Attendance control system"
+msgstr ""
+
+#. module: eficent_website
+#: model:website.menu,name:eficent_website.submenu_event
+msgid "Event Schedule"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Events"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "FAQs"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Facilitate the distribution of your products, through both physical and electronic channels."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Fully integrated with Odoo, and DDI Compliant"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Get ready to be trained in a revolutionary planning method designed to meet the needs of the modern day market."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Home"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Implement Flow-Based Metrics"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Implement a Flow-based Operating Model"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Implement the Demand Driven Operating Model"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Improve the efficiency of your internal processes."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "In an increasingly <b>variable</b> and <b>volatile</b> environment, all the organizations in the supply chain are affected by the \"bullwhip effect\"."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Internet of Things"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Intuitive, pragmatic and transparent, it's nothing short of a revolution in&amp;nbsp;supply chain planning."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_development_init_header
+msgid "IoT"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Is it ok if the name on my ticket or registration doesn't match the person who attends?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "Is it okay if the name on my ticket or registration doesn't match the person who attends?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Is the cost of the exam included?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "It allows organizations to <b>align production and supply to market’s demand</b>, while enabling a better and faster decision making, both at <b>operational</b> and <b>strategic</b> levels."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Jordi Ballester is currently CEO of Eficent. He is a Certified Demand Driven Planner, and co-author of the Demand Driven Institute compliant software Eficent.io."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Jordi Ballester, Eficent CEO"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Leading DDMRP Adopters"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Lois Rilo is currently consultant at Eficent. He is a certified Demand Driven Planner, and co-author of the Demand Driven Institute compliant software Eficent.io."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Lois Rilo, Odoo Consultant at Eficent"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Lois has recently been involved in a DDMRP implementation for a manufacturing company. His academic background is on Industrial Engineering."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Meet the Lecturers"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "Minimize work disruption by using a simple method to clock-in/out"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "More Info\n"
+"                                <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "More Info\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "More info from the Demand Driven Institute\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Moreover they have to face unpredictable demand signals, increasing SKUs, shorter customer tolerance, longer Lead Times in a worldwide net, lots of customizations… which are only a few of the factors that describe the <b>21st century reality</b>; DDMRP arises as an answer to this complex scenario."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Most Purchasing and Materials Managers feel like they are caught between a rock and a hard spot. Shortages of critical items must be eliminated while at the same time inventory levels must be dramatically reduced and expedite related expenses minimized. In today’s economic climate this conflict is more urgent than ever."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "Obtain reports in Odoo about the employee productivity"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Odoo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Odoo Consulting"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+#: model:ir.ui.view,arch_db:eficent_website.footer
+#: model:website.menu,name:eficent_website.submenu_events_ddmrp_odoo_workshop
+msgid "Odoo DDMRP Workshop"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Odoo Experience"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_odoo_eficent_integration
+msgid "Odoo Integration"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_odoo_eficent_migration
+msgid "Odoo Migrations"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Odoo image and text block"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "Odoo implementation services"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "Odoo is the best Applications Platform for your company to embrace the Digital Transformation."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Odoo is transforming the world of ERP, but making it work for your company is far more complicated than simply installing the software."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Odoo text and image block"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Once I finish the workshop, am I receiving a DDP certificate?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Once you become demand driven you will likely experience these benefits:"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_components
+msgid "Open Bill of Materials"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_development_init_header
+msgid "Open Hardware"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "Open source"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+msgid "Our Odoo based distribution Eficent.io implements the Demand Driven MRP methodology, and meets the"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "Our Team"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+msgid "Our certified Demand Driven Instructors will provide you the keys to get you stated on the journey to become a Demand Driven Adaptive Enterprise."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "Our products are published under the GPL and AGPL free software licenses, which means that any individual or company is free to download and modify our work to suit their needs."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Our talks at Odoo Experience"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Our team has authored or contributed to hundreds of Apps, under open source licenses."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "Physical objects should be beautiful and well designed for the purpose they serve."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.meet_the_lecturers
+msgid "Previously, he was SAP consultant in supply chain for 10 years. His academic background is telecommunications engineer and bachelor in business management."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Purchase now\n"
+"                                <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "Purchase now\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "RFID Attendance System"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Reduce costs of infrastructure software."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "Register to the next training"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "Request a demo\n"
+"                                    <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Request a demo\n"
+"                                <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "Request a demo\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "Request a demo\n"
+"                        <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Scheduled Events"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_init_header
+msgid "Seamlessly integrated with Odoo, with a very simple set up."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_components
+msgid "See below the details and feel free to navigate through it."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "See the Apps\n"
+"                            <span class=\"glyphicon glyphicon-chevron-right\"/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_iot_vision
+msgid "Sensing your environment is key to improve your business process."
+msgstr ""
+
+#. module: eficent_website
+#: model:website.menu,name:eficent_website.menu_services
+msgid "Services"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Shop"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Simple to set up, using your mobile"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "So why do we do it? We firmly believe that the publication of our development and innovation work is the best way to convince our customers of our skills, and also contributes to improve our society."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Start your DDMRP journey!"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Summary"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_ddmrp_become_demand_driven_enterprise
+msgid "The\n"
+"                            <b>Demand Driven Adaptative Enterprise</b>\n"
+"                            (DDAE) model is an\n"
+"                            <b>organizational structure</b>\n"
+"                            and\n"
+"                            <b>operating method</b>\n"
+"                            designed for complex and volatile circumstances that define today's supply chain environments."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "The New Normal"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "The hardware and software designs that we make are released under open source licenses."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "The problem"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "The solution"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "The solution has passed the strict"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "The&amp;nbsp;\n"
+"                            <b>Demand Driven Planner (DDP)™</b>\n"
+"                            &amp;nbsp;Program is designed for planning, purchasing and supply chain personnel responsible for implementing and maintaining a Demand Driven MRP (DDMRP) Operating Model."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "These are some of the most important companies that have already trusted on the DDMRP methodology."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "This integrated but still intuitive approach will give lower inventories, better customer service, better use of capacity and lower supply chain risk."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "Time &amp; Attendance Logging"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_product_hightlights
+msgid "To augment the sensing capabilities of your Business, we design, manufacture and deliver IoT devices that seamlessly integrate with Odoo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "To be able to survive in this environment you might need to overhaul your enterprise model and embrace the <b>Demand Driven Adaptative Enterprise</b> one."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Typical DDMRP Results"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+msgid "Understand the Demand Driven Adaptive Enterprise model"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "Understand the Demand Driven Operating Model"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_planner_workshop_ddmrp
+msgid "Unfortunately, most of the today’s available tool sets are insufficient to effectively resolve this conflict in the face of increasing demand and supply volatility and variability. Learn about the shortcomings of tools like MRP and Demand driven MRP is based on the best attributes of Six Sigma, Lean, TOC and MRP."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.footer
+msgid "Vision"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_iot_vision
+msgid "We aim to design, produce and deliver smart IoT devices that allow a simple and seamless integration between the physical world and Odoo."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "We apply Odoo and Demand Driven to our own manufacturing and logistics processes."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_service_hightlights
+msgid "We are catalysts of the required transformational changes that your business requires to become an Enterprise that dynamically <b>senses</b> and <b>adapts</b> to the environment, with focus on <b>Flow</b>."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "We are certified Demand Driven Planner Endorsed Instructors by the DDI, we have developed a fully integrated with Odoo, DDMRP solution"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "We believe that with an open and collaborative mindset we serve better to our customers, and our engineers are happier."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_odoo_workshop_ddmrp
+msgid "We can recommend you the following hotels close to the event:\n"
+"                  <br/>"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "We deliver the <b>Digital Transformation</b> with Odoo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "We design devices that <b>directly</b> exchange data with your <b>Odoo</b>, so that you don't have to worry about messy integrations that can break data integrity and produce tons of headaches."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_odoo_highlights
+msgid "We have extensive experience in ERP, knowledge of a variety of industries, deep knowledge of Odoo, and a collaborative spirit to help us successfully meet the needs of our customers."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "We listen to your needs, train you, advise you and provide customized solutions for your company to successfully implement Odoo and achieve:"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "We manufacture and deliver devices that seamlessly integrate business processes with Odoo. Simple."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "We take care of all the design aspects so that the devices are compact, beautiful and easy to set up."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+msgid "We work hard to help you make the best out of Odoo , and at the same time help you to avoid or mitigate the risks that will involve its adoption."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_homepage_eficent
+msgid "Welcome to the Demand Driven Industry 4.0"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "What is Demand Driven MRP?"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "With dozens of projects delivered worldwide and more than 100 apps published, our team is the right companion to help your business become Digital."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "and come to our scheduled talks."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_why_use_ddmrp
+msgid "and we have guided successful implementations and integrations worldwide. This places us in the position to deliver a full program to transform your business into a Demand Driven Enterprise using Odoo."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "beautiful design"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "compliance criteria"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+msgid "compliance requirements by the Demand Driven Institute"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+msgid "defined by the Demand Driven Institute."
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+#: model:ir.ui.view,arch_db:eficent_website.content_service_hightlights
+msgid "demand driven adaptive enterprise"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_become_demand_driven_enterprise
+#: model:ir.ui.view,arch_db:eficent_website.content_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.content_product_hightlights
+msgid "eficent.io"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.aboutus_eficent
+msgid "https://github.com/Eficent"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_ddmrp_eficentio_ddmrp
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+#: model:ir.ui.view,arch_db:eficent_website.content_odoo_highlights
+#: model:ir.ui.view,arch_db:eficent_website.iot_ras_content
+msgid "iot integration with odoo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.init_header_homepage_eficent
+#: model:ir.ui.view,arch_db:eficent_website.iot_development_init_header
+msgid "odoo logo"
+msgstr ""
+
+#. module: eficent_website
+#: model:ir.ui.view,arch_db:eficent_website.content_iot_vision
+msgid "open source design"
+msgstr ""
+
