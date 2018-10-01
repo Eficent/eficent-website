@@ -18,41 +18,48 @@
         <field name="view_id" ref="page-product-highlights"/>
     </record>
 
-     <template id="eficent_website.init_header_product_hightlights" name="Products - Header">
-        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/3d_printing.jpg');"
+    <template id="eficent_website.init_header_product_hightlights" name="Products - Header">
+        <section class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/3d_printing.jpg');"
             data-scroll-background-ratio="1.6">
-            <div class="oe_structure"/><div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
-                        <font class="text-gray-darker" style="font-size: 24px;">
-                             <div class="title text-center">
-                                <h3 class=""><b>Sensing your environment is key to improve your business process</b></h3>
+            <div style="height: 300px;"/>
+        </section>
+        <section class="e_first_section">
+            <div class="case-study showcase-bottom">
+                <div class="container e_heading">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title text-center">
+                                <h3 class="">
+                                    <b>Sensing your environment is key to improve your business process</b>
+                                </h3>
                             </div>
-                            <p class="lead">To augment the sensing capabilities of your Business, we design, manufacture and deliver IoT devices that seamlessly integrate with Odoo</p>
-                        </font>
+                            <p class="text-muted">To augment the sensing capabilities of your Business, we design, manufacture and deliver IoT devices that seamlessly integrate with Odoo.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </template>
 
     <template id="eficent_website.content_product_hightlights" name="Products - Content">
-        <section class="a_paralax_section" id="services">
+        <section class="section" id="services">
             <div class="oe_structure"/>
             <div class="container">
                 <div class="row showcase-left">
-                    <div class="col-md-7">
+                    <div class="col-md-7 e_first_section_display">
                         <img class="img-responsive rec-img" src="../eficent_website/static/src/img/iot_integrations_with_odoo_700_300.png" alt="eficent.io"/>
                     </div>
                     <div class="col-md-5">
-                        <h3><b>Connect</b> the physical and digital worlds with smart devices</h3>
+                        <h3>
+                            <b>Connect</b>
+                            the physical and digital worlds with smart devices
+                        </h3>
                         <p>We manufacture and deliver devices that seamlessly integrate business processes with Odoo. Simple.</p>
                         <p>We apply Odoo and Demand Driven to our own manufacturing and logistics processes.</p>
                         <a class="btn btn-primary" href="/iot-vision">
                             More Info
                             <span class="glyphicon glyphicon-chevron-right"/>
                         </a>
-
                     </div>
                 </div>
                 <hr/>
@@ -82,7 +89,6 @@
                         </a>
                     </div>
                 </div>
-                <hr/>
             </div>
         </section>
     </template>

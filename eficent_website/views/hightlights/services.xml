@@ -19,26 +19,31 @@
     </record>
 
     <template id="eficent_website.init_header_service_hightlights" name="Services - Header">
-        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/3d_printing.jpg');"
+        <section class="parallax s_parallax oe_img_bg e_header bg-primary"
             data-scroll-background-ratio="1.6">
-            <div class="oe_structure"/><div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
-                        <font class="text-gray-darker" style="font-size: 24px;">
+            <div class="container text-center">
+                <img class="img-responsive logo" alt="eficent logo"
+                    src="eficent_website/static/src/img/services_300.png"/>
+            </div>
+        </section>
+        <section class="e_first_section">
+            <div class="case-study showcase-bottom">
+                <div class="container e_heading">
+                    <div class="row">
+                        <div class="col-md-12">
                             <div class="title text-center">
-                                <h3 class="">A more connected, complex and continuously changing world requires more than just enhancing traditional methods and tools</h3>
+                                <h3 class="">A more <b>connected</b>, <b>complex</b> and <b>continuously</b> changing world requires more than just enhancing traditional methods and tools</h3>
                             </div>
-                            <p>We are catalysts of the required transformational changes that your business requires to become an Enterprise that dynamically <b>senses</b> and <b>adapts</b> to the environment, with focus on <b>Flow</b>.</p>
-                        </font>
+                            <p class="text-muted">We are catalysts of the required transformational changes that your business requires to become an Enterprise that dynamically <b>senses</b> and <b>adapts</b> to the environment, with focus on <b>Flow</b>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </template>
 
     <template id="eficent_website.content_service_hightlights" name="Services - Content">
-        <section class="a_paralax_section" id="services">
-            <div class="oe_structure"/>
+        <section class="section" id="services">
             <div class="container">
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
@@ -71,7 +76,6 @@
                         </a>
                     </div>
                 </div>
-                <hr/>
             </div>
         </section>
     </template>

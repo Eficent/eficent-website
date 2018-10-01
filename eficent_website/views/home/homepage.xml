@@ -12,29 +12,35 @@
     </template>
 
     <template id="eficent_website.init_header_homepage_eficent" name="Eficent - Header">
-        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('../eficent_website/static/src/img/eficent_background.png');"
-            data-scroll-background-ratio="1.6">
-            <div class="oe_structure"/><div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
-                        <img class="img-responsive logo" alt="odoo logo"
-                                src="../eficent_website/static/src/img/eficent_logo.png"/>
-                        <font class="text-gray-darker" style="font-size: 24px;">
-                        <h3 class="title text-center">
-                            Welcome to the Demand Driven Industry 4.0
-                        </h3>
-                        </font>
+        <div class="bg-primary text-white e_header">
+            <div class="container text-center">
+                <img class="img-responsive logo" alt="eficent logo"
+                    src="eficent_website/static/src/img/eficent_logo2_400.png"/>
+            </div>
+        </div>
+        <section class="e_first_section">
+            <div class="case-study showcase-bottom">
+                <div class="container e_heading">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title text-center">
+                                <h3 class="">We provide <b>Open Source Solutions</b> &amp; <b>Consulting Services</b> to ensure companies becoming <b>Demand Driven Adaptive Enterprises</b></h3>
+                            </div>
+                            <p class="text-muted">We firmly believe that the publication of development work is the best way to convince our customers and also contributes to improve our society.</p>
+                            <p>
+                                Read more
+                                <a href="/aboutus">about us</a>, discover our projects below and <a href="/contactus">contact us</a>.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </template>
 
     <template id="eficent_website.content_homepage_eficent" name="Services Content">
-        <section class="" id="services">
-            <div class="oe_structure"/>
+        <section class="section" id="services">
             <div class="container">
-                <hr/>
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
                         <img class="img-responsive rec-img" src="../eficent_website/static/src/img/ddae2.png" alt="Demand Driven Adaptive Enterprise"/>
@@ -46,9 +52,10 @@
                             More Info
                             <span class="glyphicon glyphicon-chevron-right"/>
                         </a>
-                        <a class="btn btn-primary" href="/ddmrp-planner-workshop">
+                        <br/>
+                        <br/>
+                        <a href="/ddmrp-planner-workshop">
                             Attend to a Demand Driven Planner Workshop
-                            <span class="glyphicon glyphicon-chevron-right"/>
                         </a>
                     </div>
                 </div>
@@ -83,7 +90,6 @@
                         </a>
                     </div>
                 </div>
-                <hr/>
             </div>
         </section>
     </template>

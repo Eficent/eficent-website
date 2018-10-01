@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="website.default_website" model="website">
-        <field name="name">Eficent</field>
-        <field name="domain">www.eficent.com</field>
-        <field name="company_id" ref="base.eficent_company"/>
-        <field name="user_id" ref="base.public_user"/>
-        <field name="favicon" type="base64" file="eficent_website/static/src/img/eficent_favicon_64x64.png"/>
-    </record>
+
     <record id="about_us_page" model="website.menu">
         <field name="name">About Us</field>
         <field name="url">/aboutus</field>

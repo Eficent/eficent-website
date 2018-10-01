@@ -11,7 +11,7 @@
         </t>
     </template>
 
-     <record id="eficent_website.page_odoo_highlights" model="website.page">
+    <record id="eficent_website.page_odoo_highlights" model="website.page">
         <field name="url">/odoo-digital-transformation</field>
         <field name="website_indexed">False</field>
         <field name="website_published">True</field>
@@ -19,47 +19,41 @@
     </record>
 
     <template id="eficent_website.init_header_odoo_highlights" name="Odoo - Header">
-        <div class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/odoo_digital_transformation_background.jpg');"
+        <section class="parallax s_parallax oe_img_bg e_header" style="background-image: url('/eficent_website/static/src/img/odoo_digital_transformation_background.jpg');"
             data-scroll-background-ratio="1.6">
-            <div class="oe_structure"/><div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-4 jumbotron jumbotron-iot showcase-right text-black">
-                        <font class="text-gray-darker" style="font-size: 24px;">
-                            <p>We have extensive experience in ERP, knowledge of a variety of industries, deep knowledge of Odoo, and a collaborative spirit to help us successfully meet the needs of our customers.</p>
-                        </font>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </template>
-
-    <template id="eficent_website.content_odoo_highlights" name="Odoo - Content">
-            <hr/>
-            <section class="section">
-                <div class="container">
+            <div style="height: 300px;"/>
+        </section>
+        <section class="e_first_section">
+            <div class="case-study showcase-bottom">
+                <div class="container e_heading">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <h2 class="title text-left">Odoo</h2>
-                            <div class="title text-left">
-                                <p>Odoo is transforming the world of ERP, but making it work for your company is far more complicated than simply installing the software.</p>
-                                <p>We work hard to help you make the best out of Odoo , and at the same time help you to avoid or mitigate the risks that will involve its adoption.</p>
-                                <p>We listen to your needs, train you, advise you and provide customized solutions for your company to successfully implement Odoo and achieve:</p>
-                                <li>Closer collaboration with customers, suppliers and key partners.</li>
-                                <li>Facilitate the distribution of your products, through both physical and electronic channels.</li>
-                                <li>Improve the efficiency of your internal processes.</li>
-                                <li>Reduce costs of infrastructure software.</li>
-                                <br/>
-                                <a class="btn btn-primary" href="/contactus?name=Request a demo of Odoo">
+                        <div class="col-md-12">
+                            <div class="title text-center">
+                                <h3 class="title text-center">We have extensive experience in ERP, knowledge of a variety of industries, deep knowledge of Odoo, and a collaborative spirit to help us successfully meet the needs of our customers.</h3>
+                            </div>
+
+                            <p>We listen to your needs, train you, advise you and provide customized solutions for your company to successfully implement Odoo and achieve:</p>
+                            <div class="well">
+                            <li>Closer collaboration with customers, suppliers and key partners.</li>
+                            <li>Facilitate the distribution of your products, through both physical and electronic channels.</li>
+                            <li>Improve the efficiency of your internal processes.</li>
+                            <li>Reduce costs of infrastructure software.</li>
+                            </div>
+                            <div class="text-center">
+                                <a class="btn btn-primary btn-lg" href="/contactus?name=Request a demo of Odoo">
                                     Request a demo
-                                    <span class="glyphicon glyphicon-chevron-right"/>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <hr/>
-            <section class="section">
+            </div>
+        </section>
+    </template>
+
+    <template id="eficent_website.content_odoo_highlights" name="Odoo - Content">
+        <section class="section">
+            <div class="container">
                 <div class="row showcase-left">
                     <div class="col-md-7 e_first_section_display">
                         <img class="img-responsive rec-img center-block" src="../eficent_website/static/src/img/iot_odoo_integration_700_300.png" alt="Published Apps"/>
@@ -75,8 +69,8 @@
                         </a>
                     </div>
                 </div>
-            </section>
-            <hr/>
+            </div>
+        </section>
     </template>
 
 </odoo>
